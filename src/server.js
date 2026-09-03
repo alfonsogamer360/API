@@ -10,5 +10,5 @@ app.get("/", (_req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Seja bem vindo a minha API`);
+    console.log(`Seja bem vindo a minha API: http://localhost:${port}`);
 });
